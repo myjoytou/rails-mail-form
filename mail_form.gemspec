@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = MailForm::VERSION
   s.authors     = ["Vivek Kumar"]
   s.email       = ["vivek@socialfrontier.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MailForm."
-  s.description = "TODO: Description of MailForm."
+  s.homepage    = "http://www.example.com"
+  s.summary     = "Summary of MailForm."
+  s.description = "Description of MailForm."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.6"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "capybara", "~> 2.0.0"
 end
